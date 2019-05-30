@@ -18,8 +18,11 @@ Scrapy Scrapy_redis Keras jieba pandas matplolib
 # 重要过程实现
 1. 京东评论网址：数据保存在json里，需对网址进行参数(productId,fetchJSON_comment98vv9547)拼接
 e.g. https://sclub.jd.com/comment/productPageComments.action?callback=fetchJSON_comment98vv9547&productId=100003433872&score=3&sortType=5&page=0&pageSize=10&isShadowSku=0&fold=1
+![Image text](https://github.com/fenghuoxiguozu/Sentiment_analysis/img/url1.png)
+
 productId: 商品ID,商品详情页URL上
 comment: 网页源码搜索comment 
+![Image text](https://github.com/fenghuoxiguozu/Sentiment_analysis/img/url2.png)
 
 # 优化
 1. 一般网购商品评论90%+都是好评，爬取数据时可以对好评数量进行限制，平衡样本。
