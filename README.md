@@ -24,6 +24,10 @@ productId: 商品ID,商品详情页URL上
 comment: 网页源码搜索comment 
 ![Image text](https://github.com/fenghuoxiguozu/Sentiment_analysis/blob/master/img/url2.png)
 
+2. 预处理：去除垃圾信息
+![Image text](https://github.com/fenghuoxiguozu/Sentiment_analysis/blob/master/img/clean1.png)
+![Image text](https://github.com/fenghuoxiguozu/Sentiment_analysis/blob/master/img/clean2.png)
+
 # 优化
 1. 一般网购商品评论90%+都是好评，爬取数据时可以对好评数量进行限制，平衡样本。
 2. 分词时英文词汇(vivo,ios)等基本无语义，所以全部删除，但部分词汇（e.g OK good）等对分析有重要影响。
